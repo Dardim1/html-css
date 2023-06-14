@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #F4B8F5;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    font-family: 'Lobster' ;
+}
+div{
+    display:inline-block;
+    align-items: center;   
+    
+    justify-content: space-around;
+}
+section{
+    background-color: white;
+    justify-content: space-around;
+    max-width: 730px;
+    margin: auto;
+    
+   
+}
+#chocolate{
+    width: 237px;
+    height: 170px;
+    
+}
+#flocos{
+    width: 240px;
+    height: 171px;
+}
+#açai{
+    width: 200px;
+    
+}
+#morango{
+    width: 260px;
+    height: 170px;
+    
+}
+.sabor1{
+    background-color: #F4B8F5;
+    
+}
+.sabor2{
+    background-color: darkslateblue;
+    margin: 0;
+}
+.sabor3{
+    background-color: bisque;
+    margin: 0;
+}
+.sabor4{
+    background-color: rgba(128, 0, 0, 0.529);
+    margin: 0;
+}
+.sabor1, .sabor2,.sabor3,.sabor4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+header{
+    background-color: #D0F4EE;
+}
+nav{
+    background-color: #7EA8A1;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 21px;
+    margin:3px;
+   justify-content: space-between;
+    
+}
+a:hover{
+    background-color: #F4B8F5;
+    color: black;
+}
+#logo{
+   justify-content: center;
+   flex-direction: column;
+}
+#logo>img{
+    width: 10%;
+    height: 10%;
+    padding-left: 600px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#logo>h1{
+    padding-left: 230px;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+

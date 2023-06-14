@@ -1,0 +1,22 @@
+body{
+    background-color: #DFD7B2;
+}
+main{
+    background-color:white;;
+    box-shadow: 5px 5px 10px #6C786B;
+    border-radius: 10px;    
+    width: 60%;
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+
+
+}
+h1{
+    text-align: center;
+    color: #3B3936;
+}
+p,h2{
+    color: #6C786B
+}
+   

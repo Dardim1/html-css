@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 1em;
+    font-weight: normal; 
+}
+
+h1{
+    font: italic  bolder 3em 'Sigmar', cursive;
+    margin: auto;
+    text-align: center;
+}/* font style -> font weight -> font size -> font family  shorthand*/

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamica</title>
+</head>
+<body>
+    <h1>Imagem Adaptavél</h1>
+    <p>
+        <picture>
+            <source media="(max-width:750px)" srcset="imagens/luffyp.jpg" type="image/jpg">
+            <source media="(max-width:1050px)" srcset="imagens/luffym.jpg" type="image/jpg">
+            <img src="imagens/luffyg.jpg" alt="Imagem Adaptavél">
+        </picture>
+    </p>
+<h1>Reproduzindo aúdios</h1>
+ <!--MP3 HAV OGG-->
+<audio controls preload="metadata" >
+    <source src="media/rihannas&m.mp3" type="audio/mpeg">
+    <source srcset="media/rihanna&m.mp3" type="audio/mpeg">
+    <source srcset="media/rihannas&m.hav" type="audio/hav">
+    <source srcset="media/rihannas&m.ogg" type="audio/ogg">
+    <p>Infelizmente seu navegador é lixo e não conseguiu rodar a música <a href="media/rihannas&m.mp3">clique aqui para baixar</a></p>
+</audio>
+
+</body>
+</html>
