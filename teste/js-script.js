@@ -1,0 +1,3 @@
+$('.imagemluffy').slick();
+
+
